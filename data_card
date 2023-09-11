@@ -4,7 +4,7 @@ O conjunto de dados de evasão e insucesso acadêmico foi concebido com o objeti
 #### Dataset Link
 <!-- info: Provide a link to the dataset: -->
 <!-- width: half -->
-[Download CSV data](https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip)
+[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 #### Data Card Author(s)
 <!-- info: Select **one role per** Data Card Author:
@@ -125,7 +125,6 @@ to include relevant information, considerations, and links to table(s) with
 more detailed breakdowns.)
 Category | Data
 --- | --- -->
-Tamanaho do conjunto | 521KB
 Número de instâncias | 4424
 Número de atributos | 36
 Número de classes | 3
@@ -279,7 +278,7 @@ Summarize here. Include links and metrics where applicable.
 ### Dataset Version and Maintenance
 #### Maintenance Status
 <!-- scope: telescope -->
-<!-- info: Select **one:** -->
+<!-- info: Select **one:** 
 **Regularly Updated** - New versions of the dataset
 have been or will continue to be
 made available.
@@ -295,26 +294,30 @@ but any technical issues will be
 addressed.
 
 **Deprecated** - This dataset is obsolete or is
-no longer being maintained.
+no longer being maintained.-->
+
+Limited Maintenance
 
 #### Version Details
 <!-- scope: periscope -->
 <!-- info: Provide details about **this** version of the dataset: -->
 **Current Version:** 1.0
 
-**Last Updated:** MM/YYYY
+**Last Updated:** 12/2021
 
-**Release Date:** MM/YYYY
+**Release Date:** 12-2021
 
 #### Maintenance Plan
 <!-- scope: microscope -->
 <!-- info: Summarize the maintenance plan for the dataset:
 
 Use additional notes to capture any other relevant information or
-considerations. -->
-Summarize here. Include links and metrics where applicable.
+considerations. 
+Summarize here. Include links and metrics where applicable.-->
 
-**Versioning:** Summarize here. Include information about criteria for
+Nenhuma atualização prevista. 
+
+<!--**Versioning:** Summarize here. Include information about criteria for
 versioning the dataset.
 
 **Updates:** Summarize here. Include information about criteria for refreshing
@@ -330,29 +333,29 @@ or updating the dataset.
 
 #### Next Planned Update(s)
 <!-- scope: periscope -->
-<!-- info: Provide details about the next planned update: -->
+<!-- info: Provide details about the next planned update: 
 **Version affected:** 1.0
 
 **Next data update:** MM/YYYY
 
 **Next version:** 1.1
 
-**Next version update:** MM/YYYY
+**Next version update:** MM/YYYY-->
 
-#### Expected Change(s)
-<!-- scope: microscope -->
+<!--#### Expected Change(s)
+ scope: microscope -->
 <!-- info: Summarize the updates to the dataset and/or data that are expected
 on the next update.
 
 Use additional notes to capture any other relevant information or
-considerations. -->
+considerations. 
 **Updates to Data:** Summarize here. Include links, charts, and visualizations
 as appropriate.
 
 **Updates to Dataset:** Summarize here. Include links, charts, and
 visualizations as appropriate.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
 
 ## Example of Data Points
 #### Primary Data Modality
@@ -450,76 +453,91 @@ Summarize here. Include any criteria for atypicality of data point.
 ### Motivations
 #### Purpose(s)
 <!-- scope: telescope -->
-<!-- info: Select **one**: -->
+<!-- info: Select **one**: 
 - Monitoring
 - Research
 - Production
-- Others (please specify)
+- Others (please specify)-->
+- Research
 
 #### Domain(s) of Application
 <!-- scope: periscope -->
 <!-- info: Provide a list of key domains of application that the dataset has
-been designed for:<br><br>(Usage Note: Use comma-separated keywords.) -->
-For example: `Machine Learning`, `Computer Vision`, `Object Detection`.
+been designed for:<br><br>(Usage Note: Use comma-separated keywords.)
+For example: `Machine Learning`, `Computer Vision`, `Object Detection`. 
 
-`keyword`, `keyword`, `keyword`
+`keyword`, `keyword`, `keyword`-->
+
+Machine Learning, Predição de evasão, Prediçãp de insucesso acadêmico 
 
 #### Motivating Factor(s)
 <!-- scope: microscope -->
 <!-- info: List the primary motivations for creating or curating this dataset:
 
 (Usage Note: use this to describe the problem space and corresponding
-motivations for the dataset.) -->
+motivations for the dataset.) 
 For example:
 
 - Bringing demographic diversity to imagery training data for object-detection models
 - Encouraging academics to take on second-order challenges of cultural representation in object detection
 
 Summarize motivation here. Include links where relevant.
+-->
+
+Identificar precocemente a evasão de estudantes para promoção de ações para retenção e sucesso dos alunos em uma trajetória acadêmica bem-sucedida.
 
 ### Intended Use
 #### Dataset Use(s)
 <!-- scope: telescope -->
-<!-- info: Select **one**: -->
+<!-- info: Select **one**: 
 - Safe for production use
 - Safe for research use
 - Conditional use - some unsafe applications
 - Only approved use
-- Others (please specify)
+- Others (please specify)-->
+
+- Conditional use - some unsafe applications
 
 #### Suitable Use Case(s)
 <!-- scope: periscope -->
 <!-- info: Summarize known suitable and intended use cases of this dataset.
 
 Use additional notes to capture any specific patterns that readers should
-look out for, or other relevant information or considerations. -->
+look out for, or other relevant information or considerations. 
 **Suitable Use Case:** Summarize here. Include links where necessary.
 
 **Suitable Use Case:** Summarize here. Include links where necessary.
 
 **Suitable Use Case:** Summarize here. Include links where necessary.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
+
+Predição do desempenho acadêmico com foco em informações do primeiro ano de curso. 
 
 #### Unsuitable Use Case(s)
 <!-- scope: microscope -->
 <!-- info: Summarize known unsuitable and unintended use cases of this dataset.
 
 Use additional notes to capture any specific patterns that readers should look
-out for, or other relevant information or considerations. -->
+out for, or other relevant information or considerations. 
 **Unsuitable Use Case:** Summarize here. Include links where necessary.
 
 **Unsuitable Use Case:** Summarize here. Include links where necessary.
 
 **Unsuitable Use Case:** Summarize here. Include links where necessary.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
+
+**Discriminação na admissão:** usar os dados para discrimir determinados grupos quanto a admissão em instituições de ensino superior.
+
+**Criação de perfis invasivos:** usar os dados para criar perfis detalhados dos alunos que vão além das necessidades educativas.
 
 #### Research and Problem Space(s)
 <!-- scope: periscope -->
 <!-- info: Provide a description of the specific problem space that this
-dataset intends to address. -->
-Summarize here. Include any specific research questions.
+dataset intends to address. 
+Summarize here. Include any specific research questions.-->
+Este conjunto de dados foi concebido para investigação do risco de abandono e reprovação de alunos no primeiro ano de curso, com o objetivo da instituição prestar um atendimento mais preciso aos estudantes. 
 
 #### Citation Guidelines
 <!-- scope: microscope -->
@@ -527,57 +545,58 @@ Summarize here. Include any specific research questions.
 and/or production.
 
 Use additional notes to capture any specific patterns that readers should look
-out for, or other relevant information or considerations. -->
-**Guidelines & Steps:** Summarize here. Include links where necessary.
+out for, or other relevant information or considerations. 
+**Guidelines & Steps:** Summarize here. Include links where necessary.-->
 
 **BiBTeX:**
 ```
-@article{kuznetsova2020open,
-  title={The open images dataset v4},
-  author={Kuznetsova, Alina and Rom, Hassan and Alldrin, and others},
-  journal={International Journal of Computer Vision},
-  volume={128},
-  number={7},
-  pages={1956--1981},
-  year={2020},
-  publisher={Springer}
+@misc{misc_predict_students'_dropout_and_academic_success_697,
+  author       = {Realinho,Valentim, Vieira Martins,Mónica, Machado,Jorge, and Baptista,Luís},
+  title        = {{Predict students' dropout and academic success}},
+  year         = {2021},
+  howpublished = {UCI Machine Learning Repository},
+  note         = {{DOI}: https://doi.org/10.24432/C5MC89}
 }
 ```
 
-**Additional Notes:** Add here
+<!--**Additional Notes:** Add here-->
 
 ## Access, Rentention, & Wipeout
 ### Access
 #### Access Type
 <!-- scope: telescope -->
-<!-- info: Select **one**: -->
+<!-- info: Select **one**:
 - Internal - Unrestricted
 - Internal - Restricted
 - External - Open Acess
-- Others (please specify)
+- Others (please specify) -->
+
+- External - Open Acess
 
 #### Documentation Link(s)
 <!-- scope: periscope -->
 <!-- info: Provide links that describe documentation to access this
-dataset: -->
+dataset: 
 - Dataset Website URL
-- GitHub URL
+- GitHub URL-->
 
-#### Prerequisite(s)
-<!-- scope: microscope -->
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
+
+<!--#### Prerequisite(s)
+ scope: microscope -->
 <!-- info: Please describe any required training or prerequisites to access
-this dataset. -->
+this dataset. 
 For example:
 
 This dataset requires membership in [specific] database groups:
 
 - Complete the [Mandatory Training]
 - Read [Data Usage Policy]
-- Initiate a Data Requesting by filing
+- Initiate a Data Requesting by filing-->
 
-#### Policy Link(s)
-<!-- scope: periscope -->
-<!-- info: Provide a link to the access policy: -->
+<!--#### Policy Link(s)
+     scope: periscope -->
+<!-- info: Provide a link to the access policy:
 - Direct download URL
 - Other repository URL
 
@@ -585,21 +604,21 @@ Code to download data:
 ```
 ...
 ```
-
-#### Access Control List(s)
-<!-- scope: microscope -->
+ -->
+<!-- #### Access Control List(s)
+     scope: microscope -->
 <!-- info: List and summarize any access control lists associated with this
 dataset. Include links where necessary.
 
 Use additional notes to capture any other information relevant to accessing
-the dataset. -->
+the dataset. 
 **Access Control List:** Write summary and notes here.
 
 **Access Control List:** Write summary and notes here.
 
 **Access Control List:** Write summary and notes here.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
 
 ### Retention
 #### Duration
@@ -710,7 +729,7 @@ considerations.** -->
 ### Collection
 #### Method(s) Used
 <!-- scope: telescope -->
-<!-- info: Select **all applicable** methods used to collect data: -->
+<!-- info: Select **all applicable** methods used to collect data: 
 - API
 - Artificially Generated
 - Crowdsourced - Paid
@@ -721,7 +740,8 @@ considerations.** -->
 - Taken from other existing datasets
 - Unknown
 - To be determined
-- Others (please specify)
+- Others (please specify)-->
+- Taken from other existing datasets
 
 #### Methodology Detail(s)
 <!-- scope: periscope -->
@@ -734,17 +754,17 @@ considerations.
 type.) -->
 **Collection Type**
 
-**Source:** Describe here. Include links where available.
+**Source:** Dados de alunos do cursos de graduação do Instituto Politécnico de Portalegre
 
-**Platform:** [Platform Name], Describe platform here. Include links where relevant.
+<!--**Platform:** [Platform Name], Describe platform here. Include links where relevant.-->
 
-**Is this source considered sensitive or high-risk?** [Yes/No]
+**Is this source considered sensitive or high-risk?** Sim
 
-**Dates of Collection:** [MMM YYYY - MMM YYYY]
+**Dates of Collection:** [2008/2009 - 2018/2019]
 
 **Primary modality of collection data:**
 
-*Usage Note: Select one for this collection type.*
+<!--*Usage Note: Select one for this collection type.*
 
 - Image Data
 - Text Data
@@ -756,11 +776,13 @@ type.) -->
 - Geospatial Data
 - Unknown
 - Multimodal (please specify)
-- Others (please specify)
+- Others (please specify)-->
+
+- Tabular Data
 
 **Update Frequency for collected data:**
 
-*Usage Note: Select one for this collection type.*
+<!--*Usage Note: Select one for this collection type.*
 
 - Yearly
 - Quarterly
@@ -769,39 +791,44 @@ type.) -->
 - Weekly
 - Daily
 - Hourly
-- Static
-- Others (please specify)
+- Others (please specify)-->
 
-**Additional Links for this collection:**
+- Static
+
+<!--**Additional Links for this collection:**
 
 - [Access Policy]
 - [Wipeout Policy]
 - [Retention Policy]
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
 
 #### Source Description(s)
 <!-- scope: microscope -->
 <!-- info: Provide a description of each upstream source of data.
 
 Use additional notes to capture any other relevant information or
-considerations. -->
+considerations.
 - **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
 - **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
 - **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
+
+- **Source:** O conjunto de dados inclui informações de alunos matriculados em diferentes cursos da instituição. Os dados incluem informações da matrícula dos alunos (percurso acadêmico, dados demográficos e fatores socioeconômicos) e o desempenho acadêmico no final do primeiro e segundo semestres.
 
 #### Collection Cadence
 <!-- scope: telescope -->
-<!-- info: Select **all applicable**: -->
+<!-- info: Select **all applicable**: 
 **Static:** Data was collected once from single or multiple sources.
 
 **Streamed:** Data is continuously acquired from single or multiple sources.
 
 **Dynamic:** Data is updated regularly from single or multiple sources.
 
-**Others:** Please specify
+**Others:** Please specify-->
+
+**Static:** Data was collected once from single or multiple sources.
 
 #### Data Integration
 <!-- scope: periscope -->
@@ -943,11 +970,14 @@ and there is no data card available for the first version -->
 <!-- scope: periscope -->
 <!-- info: Provide a **basic description of the first version** of this
 dataset. -->
-- **Release date:** MM/YYYY
-- **Link to dataset:** [Dataset Name + Version]
-- **Status:** [Select one: Actively Maintained/Limited Maintenance/Deprecated]
-- **Size of Dataset:** 123 MB
-- **Number of Instances:** 123456
+- **Release date:** 12/2021
+- **Link to dataset:**  [Students' dropout and academic success 1.0](https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip)
+- **Status:** Maintained/Limited 
+<!--
+ [Select one: Actively Maintained/Limited Maintenance/Deprecated] 
+--> 
+- **Size of Dataset:** 521 KB
+- **Number of Instances:** 4424
 
 #### Note(s) and Caveat(s)
 <!-- scope: microscope -->
@@ -955,14 +985,16 @@ dataset. -->
 dataset that may affect the use of the current version.
 
 Use additional notes to capture any other relevant information or
-considerations. -->
+considerations. 
 Summarize here. Include links where available.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
+
+Os dados foram pré-processados antes da disponibilização para lidar com dados de anomalias, valores discrepantes inexplicáveis ​​e valores ausentes.
 
 #### Cadence
 <!-- scope: telescope -->
-<!-- info: Select **one**: -->
+<!-- info: Select **one**: 
 - Yearly
 - Quarterly
 - Monthly
@@ -971,31 +1003,35 @@ Summarize here. Include links where available.
 - Daily
 - Hourly
 - Static
-- Others (please specify)
+- Others (please specify)-->
+
+- Static
 
 #### Last and Next Update(s)
 <!-- scope: periscope -->
-<!-- info: Please describe the update schedule: -->
+<!-- info: Please describe the update schedule: 
 - **Date of last update:** DD/MM/YYYY
 - **Total data points affected:** 12345
 - **Data points updated:** 12345
 - **Data points added:** 12345
 - **Data points removed:** 12345
-- **Date of next update:** DD/MM/YYYY
+- **Date of next update:** DD/MM/YYYY-->
 
-#### Changes on Update(s)
-<!-- scope: microscope -->
+- **Date of last update:** 12/12/2021
+
+<!--#### Changes on Update(s)
+ scope: microscope -->
 <!-- info: Summarize the changes that occur when the dataset is refreshed.
 
 Use additional notes to capture any other relevant information or
 considerations.
 
-(Usage Note: Duplicate and complete the following for each source type.) -->
+(Usage Note: Duplicate and complete the following for each source type.)
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
 
 ## Human and Other Sensitive Attributes
 #### Sensitive Human Attribute(s)
@@ -1305,9 +1341,11 @@ Summarize here. Include links and metrics where applicable.
 - Training
 - Testing
 - Validation
+<!--
 - Development or Production Use
 - Fine Tuning
 - Others (please specify)
+-->
 
 #### Notable Feature(s)
 <!-- scope: periscope -->
@@ -1963,7 +2001,7 @@ performed in the creation of your dataset. -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** annotation
 workforce types or methods used
-to annotate the dataset: -->
+to annotate the dataset:
 - Annotation Target in Data
 - Machine-Generated
 - Annotations
@@ -1975,7 +2013,9 @@ to annotate the dataset: -->
 - Human Annotations (Outsourced / Managed)
 - Teams
 - Unlabeled
-- Others (Please specify)
+- Others (Please specify) -->
+
+- Human Annotations (Expert)
 
 #### Annotation Characteristic(s)
 <!-- scope: periscope -->
