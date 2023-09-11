@@ -1,24 +1,21 @@
-# Dataset Name (Acronym)
-Write a short summary describing your dataset (limit
-200 words). Include information about the content
-and topic of the data, sources and motivations for the
-dataset, benefits and the problems or use cases it is
-suitable for.
+# Evasão e insucesso acadêmico
+O conjunto de dados de evasão e insucesso acadêmico foi concebido com o objetivo de contribuir para a diminuição  do abandono e do insucesso acadêmico no ensino superior. Espera-se que, com dados do momento da matrícula do aluno - percurso acadêmico, dados demográficos e fatores socioeconômicos seja possível identificar alunos em risco em  uma fase inicial do seu percurso acadêmico, assim podendo ser implementadas estratégias de apoio aos mesmos.
 
 #### Dataset Link
 <!-- info: Provide a link to the dataset: -->
 <!-- width: half -->
-Dataset Link
+[Download CSV data](https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip)
 
 #### Data Card Author(s)
 <!-- info: Select **one role per** Data Card Author:
 
 (Usage Note: Select the most appropriate choice to describe the author's role
 in creating the Data Card.) -->
-<!-- width: half -->
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
+<!-- width: half 
+- **Name, Team:** (Owner / Contributor / Manager)-->
+- **Jadson Costa, IC UNICAMP** 
+- **Kamila Benevides, IC UNICAMP** 
+- **Karla Silva, IC UNICAMP**
 
 ## Authorship
 ### Publishers
@@ -26,12 +23,14 @@ in creating the Data Card.) -->
 <!-- scope: telescope -->
 <!-- info: Provide the names of the institution or organization responsible
 for publishing the dataset: -->
-Organization Name
+Instituto Politécnico de Portalegre
 
 #### Industry Type(s)
 <!-- scope: periscope -->
 <!-- info: Select **all applicable** industry types to which the publishing
 organizations belong: -->
+- Academic - Tech
+<!--
 - Corporate - Tech
 - Corporate - Non-Tech (please specify)
 - Academic - Tech
@@ -39,50 +38,52 @@ organizations belong: -->
 - Not-for-profit - Tech
 - Not-for-profit - Non-Tech (please specify)
 - Individual (please specify)
-- Others (please specify)
+- Others (please specify) -->
 
 #### Contact Detail(s)
 <!-- scope: microscope -->
-<!-- info: Provide publisher contact details: -->
+<!-- info: Provide publisher contact details: 
 - **Publishing POC:** Provide the name for a POC for this dataset's publishers
 - **Affiliation:** Provide the POC's institutional affiliation
 - **Contact:** Provide the POC's contact details
-- **Mailing List:** Provide a mailing list if available
-- **Website:** Provide a website for the dataset if available
+- **Mailing List:** Provide a mailing list if available-->
+- **Website:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 ### Dataset Owners
 #### Team(s)
 <!-- scope: telescope -->
-<!-- info: Provide the names of the groups or team(s) that own the dataset: -->
-Name of Group or Team
+<!-- info: Provide the names of the groups or team(s) that own the dataset: 
+Name of Group or Team-->
+Instituto Politécnico de Portalegre
 
 #### Contact Detail(s)
 <!-- scope: periscope -->
-<!-- info: Provide pathways to contact dataset owners: -->
+<!-- info: Provide pathways to contact dataset owners: 
 - **Dataset Owner(s):** Provide the names of the dataset owners
 - **Affiliation:** Provide the affiliation of the dataset owners
 - **Contact:** Provide the email of the dataset owner
 - **Group Email:** Provide a link to the mailing-list@server.com for the dataset owner team
-- **Website:** Provide a link to the website for the dataset owner team
+- **Website:** Provide a link to the website for the dataset owner team-->
+
+- **Contact:** mvmartins@ipportelegre.pt
 
 #### Author(s)
 <!-- scope: microscope -->
 <!-- info: Provide the details of all authors associated with the dataset:
 
 (Usage Note: Provide the affiliation and year if different from publishing
-institutions or multiple affiliations.) -->
-- Name, Title, Affiliation, YYYY
-- Name, Title, Affiliation, YYYY
-- Name, Title, Affiliation, YYYY
-- Name, Title, Affiliation, YYYY
+institutions or multiple affiliations.) 
+- Name, Title, Affiliation, YYYY-->
+- Valentim Realinho, PhD
+- Mónica Vieira Martins, PhD 
+- Jorge Machado, Master of Engineering
+- Luís M.T. Baptista, PhD
 
 ### Funding Sources
 #### Institution(s)
 <!-- scope: telescope -->
 <!-- info: Provide the names of the funding institution(s): -->
-- Name of Institution
-- Name of Institution
-- Name of Institution
+-  SATDAP – Sistema de Apoio à Transformação Digital da Administração Pública
 
 #### Funding or Grant Summary(ies)
 <!-- scope: periscope -->
@@ -92,18 +93,21 @@ the creation, collection, or curation of the dataset.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
+A criação deste conjunto de dados foi apoiado pelo programa SATDAP - Capacitação da Administração 
+Pública ao abrigo do subsídio POCI-05-5762-FSE-000191, Portugal.
+<!--
 *For example, Institution 1 and institution 2 jointly funded this dataset as a
 part of the XYZ data program, funded by XYZ grant awarded by institution 3 for
 the years YYYY-YYYY.*
 
 Summarize here. Link to documents if available.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
 
 ## Dataset Overview
 #### Data Subject(s)
 <!-- scope: telescope -->
-<!-- info: Select ***all applicable**** subjects contained the dataset: -->
+<!-- info: Select ***all applicable**** subjects contained the dataset: 
 - Sensitive Data about people
 - Non-Sensitive Data about people
 - Data about natural phenomena
@@ -111,35 +115,34 @@ Summarize here. Link to documents if available.
 - Synthetically generated data
 - Data about systems or products and their behaviors
 - Unknown
-- Others (Please specify)
+- Others (Please specify)-->
+Dados sensíveis sobre pessoas
 
 #### Dataset Snapshot
 <!-- scope: periscope -->
 <!-- info: Provide a snapshot of the dataset:<br><br>(Use the additional notes
 to include relevant information, considerations, and links to table(s) with
-more detailed breakdowns.) -->
+more detailed breakdowns.)
 Category | Data
---- | ---
-Size of Dataset | 123456 MB
-Number of Instances | 123456
-Number of Fields | 123456
-Labeled Classes | 123456
-Number of Labels | 123456789
-Average Labeles Per Instance | 123456
-Algorithmic Labels | 123456789
-Human Labels | 123456789
-Other Characteristics | 123456
+--- | --- -->
+Tamanaho do conjunto | 521KB
+Número de instâncias | 4424
+Número de atributos | 36
+Número de classes | 3
 
-**Above:** Provide a caption for the above table of visualization.
+<!--**Above:** Provide a caption for the above table of visualization.
 
-**Additional Notes:** Add here.
+**Additional Notes:** Add here.-->
+
 
 #### Content Description
 <!-- scope: microscope -->
-<!-- info: Provide a short description of the content in a data point: -->
+<!-- info: Provide a short description of the content in a data point: 
 Summarize here. Include links if available.
 
-**Additional Notes:** Add here.
+**Additional Notes:** Add here.-->
+
+Este conjunto de dados foi criado a partir de dados institucionais relativos aos alunos inscritos nos cursos de graduação do Instituto Politécnico de Portalegre, Portugal. Os dados incluem registos de alunos matriculados entre os anos 2008/09-2018/2019  em diferentes cursos, como agronomia, design, educação, enfermagem, jornalismo, gestão, serviço social e tecnologias. O conjunto foi preprocessado para tratar anomalias, outliers inexplicáveis e valores faltantes.  
 
 #### Descriptive Statistics
 <!-- width: full -->
