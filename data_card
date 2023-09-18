@@ -143,15 +143,15 @@ Summarize here. Include links if available.
 
 Este conjunto de dados foi criado a partir de dados institucionais relativos aos alunos inscritos nos cursos de graduação do Instituto Politécnico de Portalegre, Portugal. Os dados incluem registos de alunos matriculados entre os anos 2008/09-2018/2019  em diferentes cursos, como agronomia, design, educação, enfermagem, jornalismo, gestão, serviço social e tecnologias. O conjunto foi preprocessado para tratar anomalias, outliers inexplicáveis e valores faltantes.  
 
-#### Descriptive Statistics
-<!-- width: full -->
+<!--#### Descriptive Statistics
+ width: full -->
 <!-- info: Provide basic descriptive statistics for each field.
 
 Use additional notes to capture any other relevant information or
 considerations.
 
 Usage Note: Some statistics will be relevant for numeric data, for not for
-strings. -->
+strings. 
 
 Statistic | Field Name | Field Name | Field Name | Field Name | Field Name | Field Name
 --- | --- | --- | --- | --- | --- | ---
@@ -167,7 +167,7 @@ mode |
 
 **Above:** Provide a caption for the above table or visualization.
 
-**Additional Notes:** Add here.
+**Additional Notes:** Add here.-->
 
 ### Sensitivity of Data
 #### Sensitivity Type(s)
@@ -468,7 +468,7 @@ For example: `Machine Learning`, `Computer Vision`, `Object Detection`.
 
 `keyword`, `keyword`, `keyword`-->
 
-Machine Learning, Predição de evasão, Prediçãp de insucesso acadêmico 
+Machine Learning, Predição de evasão, Predição de insucesso acadêmico 
 
 #### Motivating Factor(s)
 <!-- scope: microscope -->
@@ -561,19 +561,19 @@ out for, or other relevant information or considerations.
 
 <!--**Additional Notes:** Add here-->
 
-## Access, Rentention, & Wipeout
+<!--## Access, Rentention, & Wipeout
 ### Access
 #### Access Type
-<!-- scope: telescope -->
+ scope: telescope -->
 <!-- info: Select **one**:
 - Internal - Unrestricted
 - Internal - Restricted
 - External - Open Acess
-- Others (please specify) -->
+- Others (please specify) 
 
 - External - Open Acess
 
-#### Documentation Link(s)
+#### Documentation Link(s)-->
 <!-- scope: periscope -->
 <!-- info: Provide links that describe documentation to access this
 dataset: 
@@ -620,25 +620,25 @@ the dataset.
 
 **Additional Notes:** Add here-->
 
-### Retention
+<!--### Retention
 #### Duration
-<!-- scope: periscope -->
-<!-- info: Specify the duration for which this dataset can be retained: -->
-Specify duration in days, months, or years.
+ scope: periscope -->
+<!-- info: Specify the duration for which this dataset can be retained: 
+Specify duration in days, months, or years.-->
 
 #### Policy Summary
 <!-- scope: microscope -->
-<!-- info: Summarize the retention policy for this dataset. -->
+<!-- info: Summarize the retention policy for this dataset. 
 **Retention Plan ID:** Write here
 
 **Summary:** Write summary and notes here
 
 #### Process Guide
 <!-- scope: periscope -->
-<!-- info: Summarize any requirements and related steps to retain the dataset.
+<!-- info: Summarize any requirements and related steps to retain the dataset.-->
 
 Use additional notes to capture any other relevant information or
-considerations. -->
+considerations. 
 For example:
 
 This dataset compiles with [standard policy guidelines].
@@ -648,7 +648,7 @@ This dataset compiles with [standard policy guidelines].
 #### Exception(s) and Exemption(s)
 <!-- scope: microscope -->
 <!-- info: Summarize any exceptions and related steps to retain the dataset.
-Include links where necessary.
+Include links where necessary.-->
 
 Use additional notes to capture any other relevant information or
 considerations. -->
@@ -661,11 +661,11 @@ considerations. -->
 
 **Additional Notes:** Add here
 
-### Wipeout and Deletion
+<!-- ### Wipeout and Deletion
 #### Duration
-<!-- scope: periscope -->
+scope: periscope -->
 <!-- info: Specify the duration after which this dataset should be deleted or
-wiped out: -->
+wiped out: 
 Specify duration in days, months, or years.
 
 #### Deletion Event Summary
@@ -681,7 +681,7 @@ considerations. -->
 - Summarize second event here
 - Summarize third event here
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
 
 #### Acceptable Means of Deletion
 <!-- scope: periscope -->
@@ -921,47 +921,47 @@ considerations. -->
 
 **Additional Notes:** Add here
 
-### Relationship to Source
+<!--### Relationship to Source
 #### Use & Utility(ies)
-<!-- scope: telescope -->
+ scope: telescope -->
 <!-- info: Describe how the resulting dataset is aligned with the purposes,
 motivations, or intended use of the upstream source(s).
 
 Use additional notes to capture any other relevant information or
 considerations.
 
-(Usage Note: Duplicate and complete the following for each source type.) -->
+(Usage Note: Duplicate and complete the following for each source type.) 
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
 
-#### Benefit and Value(s)
-<!-- scope: periscope -->
+<!--#### Benefit and Value(s)
+ scope: periscope -->
 <!-- info: Summarize the benefits of the resulting dataset to its consumers,
 compared to the upstream source(s).
 
 Use additional notes to capture any other relevant information or
 considerations.
 
-(Usage Note: Duplicate and complete the following for each source type.) -->
+(Usage Note: Duplicate and complete the following for each source type.) 
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here-->
 
-#### Limitation(s) and Trade-Off(s)
-<!-- scope: microscope -->
+<!--#### Limitation(s) and Trade-Off(s)
+ scope: microscope -->
 <!-- info: What are the limitations of the resulting dataset to its consumers,
 compared to the upstream source(s)?
 
 Break down by source type.<br><br>(Usage Note: Duplicate and complete the
-following for each source type.) -->
+following for each source type.) 
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.
+- **Source Type:** Summarize here. Include links where available.-->
 
 ### Version and Maintenance
 <!-- info: Fill this next row if this is not the first version of the dataset,
@@ -2015,7 +2015,7 @@ to annotate the dataset:
 - Unlabeled
 - Others (Please specify) -->
 
-- Human Annotations (Expert)
+- Teams
 
 #### Annotation Characteristic(s)
 <!-- scope: periscope -->
