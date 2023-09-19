@@ -195,24 +195,21 @@ Summarize here. Include links and metrics where applicable.
 dataset: -->
 - Indirect Risk
 - Residual Risk
-
-#### Risk(s) and Mitigation(s)
-<!-- scope: microscope -->
 <!-- info: Summarize the steps taken to identify and mitigate risks from PII
 or sensitive information.
 
 Use additional notes to capture any other relevant information or
-considerations. -->
+considerations. 
 Summarize here. Include links and metrics where applicable.
 
-**Risk type:** Description + Mitigations
+**Riscos sistémicos ou residuais:** Ao utilizar atributos humanos existe o risco de introduzir preconceitos ou discriminação. Por exemplo, 
 
 **Risk type:** Description + Mitigations
 
 **Risk type:** Description + Mitigations
 
 **Additional Notes:** Add here
-
+-->
 ### Dataset Version and Maintenance
 #### Maintenance Status
 <!-- scope: telescope -->
@@ -488,26 +485,6 @@ type.) -->
 
 **Static:** Data was collected once from single or multiple sources.
 
-#### Data Processing
-<!-- scope: microscope -->
-<!-- info: Summarize how data from different sources or methods aggregated,
-processed, or connected.
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the following for each source OR
-collection method.) -->
-**Collection Method or Source**
-
-**Description:** Describe here. Include links where relevant.
-
-**Methods employed:** Describe here. Include links where relevant.
-
-**Tools or libraries:** Describe here. Include links where relevant.
-
-**Additional Notes:** Add here
-
 ### Collection Criteria
 #### Data Selection
 <!-- scope: telescope -->
@@ -515,11 +492,8 @@ collection method.) -->
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-- **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
+- **Collection Method of Source:** Foram selecionados dados de alunos no final do primeiro e segundo semestres
 
-**Additional Notes:** Add here
 
 #### Data Inclusion
 <!-- scope: periscope -->
@@ -528,10 +502,6 @@ considerations. -->
 Use additional notes to capture any other relevant information or
 considerations. -->
 - **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
-
-**Additional Notes:** Add here
 
 #### Data Exclusion
 <!-- scope: microscope -->
@@ -540,10 +510,6 @@ considerations. -->
 Use additional notes to capture any other relevant information or
 considerations. -->
 - **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
-
-**Additional Notes:** Add here
 
 ### Version and Maintenance
 <!-- info: Fill this next row if this is not the first version of the dataset,
@@ -663,7 +629,7 @@ Field Name | Human Attributed Collected
 that caused this dataset to include the indicated human attributes.
 
 Summarize why or how this might affect the use of the dataset. -->
-Summarize here. Include links, table, and media as relevant.
+Estes dados foram inclusos no conjunto, porque podem fornecer informações valiosas sobre os alunos e seus contextos, que, por sua vez, podem influenciar diretamente na probabilidade de um aluno obter reprovações e abandonar a universidade.
 
 #### Source(s)
 <!-- scope: periscope -->
@@ -752,9 +718,9 @@ Usage Note: Duplicate and complete the following for each human attribute. -->
 
 Summarize here. Include links and metrics where applicable.
 
-**Risk type:** [Description + Mitigations]
+**Riscos sistémicos ou residuais:** [Description + Mitigations]
 
-**Risk type:** [Description + Mitigations]
+**Expectativas de desempenho:** [Description + Mitigations]
 
 **Risk type:** [Description + Mitigations]
 
@@ -1551,9 +1517,6 @@ Evaluation Results
 
 - Accuracy: 0.62
 - Average F1-score: 0.73
-
-
-
 
 #### Evaluation Process(es)
 
