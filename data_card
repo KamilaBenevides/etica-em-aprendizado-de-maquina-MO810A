@@ -565,29 +565,13 @@ Summarize why or how this might affect the use of the dataset. -->
 Estes dados foram inclusos no conjunto, porque podem fornecer informações valiosas sobre os alunos e seus contextos, que, por sua vez, podem influenciar diretamente na probabilidade de um aluno obter reprovações e abandonar a universidade.
 
 
+
 ## Extended Use
 ### Use with Other Data
 #### Safety Level
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Safe to use with other data
-- Conditionally safe to use with other data
-- Should not be used with other data
 - Unknown
-- Others (please specify)
-
-#### Known Safe Dataset(s) or Data Type(s)
-<!-- scope: periscope -->
-<!-- info: List the known datasets or data types and corresponding
-transformations that **are safe to join or aggregate** this dataset with. -->
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
-or links where necessary.
-
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
-or links where necessary.
-
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
-or links where necessary.
 
 #### Best Practices
 <!-- scope: microscope -->
@@ -596,47 +580,7 @@ or data types.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include visualizations, metrics, demonstrative examples,
-or links where necessary.
-
-**Additional Notes:** Add here
-
-#### Known Unsafe Dataset(s) or Data Type(s)
-<!-- scope: periscope -->
-<!-- info: Fill this out if you selected "Conditionally safe to use with other
-datasets" or "Should not be used with other datasets":
-
-List the known datasets or data types and corresponding transformations that
-are **unsafe to join or aggregate** with this dataset. -->
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
-or links where necessary.
-
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
-or links where necessary.
-
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
-or links where necessary.
-
-#### Limitation(s) and Recommendation(s)
-<!-- scope: microscope -->
-<!-- info: Fill this out if you selected "Conditionally safe to use with
-other datasets" or "Should not be used with
-other datasets":
-
-Summarize limitations of the dataset that introduce foreseeable risks when the
-dataset is conjoined with other datasets.
-
-Use additional notes to capture any other relevant information or
-considerations. -->
-Summarize here. Include links and metrics where applicable.
-
-**Limitation type:** Dataset or data type, description and recommendation.
-
-**Limitation type:** Dataset or data type, description and recommendation.
-
-**Limitation type:** Dataset or data type, description and recommendation.
-
-**Additional Notes:** Add here
+É uma boa prática utilizar este dataset para investigações educacionais, bem como para elaboração de políticas e as estratégias de intervenção no ambiente acadêmico.
 
 
 
