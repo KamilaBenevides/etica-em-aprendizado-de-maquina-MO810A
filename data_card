@@ -125,9 +125,9 @@ to include relevant information, considerations, and links to table(s) with
 more detailed breakdowns.)
 Category | Data
 --- | --- -->
-Número de instâncias | 4424
-Número de atributos | 36
-Número de classes | 3
+Número de instâncias: 4424\
+Número de atributos: 36\
+Número de classes: 3
 
 <!--**Above:** Provide a caption for the above table of visualization.
 
@@ -143,49 +143,13 @@ Summarize here. Include links if available.
 
 Este conjunto de dados foi criado a partir de dados institucionais relativos aos alunos inscritos nos cursos de graduação do Instituto Politécnico de Portalegre, Portugal. Os dados incluem registos de alunos matriculados entre os anos 2008/09-2018/2019  em diferentes cursos, como agronomia, design, educação, enfermagem, jornalismo, gestão, serviço social e tecnologias. O conjunto foi preprocessado para tratar anomalias, outliers inexplicáveis e valores faltantes.  
 
-<!--#### Descriptive Statistics
- width: full -->
-<!-- info: Provide basic descriptive statistics for each field.
-
-Use additional notes to capture any other relevant information or
-considerations.
-
-Usage Note: Some statistics will be relevant for numeric data, for not for
-strings. 
-
-Statistic | Field Name | Field Name | Field Name | Field Name | Field Name | Field Name
---- | --- | --- | --- | --- | --- | ---
-count |
-mean |
-std |
-min |
-25% |
-50% |
-75% |
-max |
-mode |
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here.-->
-
 ### Sensitivity of Data
 #### Sensitivity Type(s)
 <!-- scope: telescope -->
 <!-- info: Select ***all applicable*** data types present in the dataset: -->
 - User Content
 - User Metadata
-- User Activity Data
-- Identifiable Data
-- S/PII
-- Business Data
-- Employee Data
-- Pseudonymous Data
 - Anonymous Data
-- Health Data
-- Children’s Data
-- None
-- Others (Please specify)
 
 #### Field(s) with Sensitive Data
 <!-- scope: periscope -->
@@ -196,29 +160,16 @@ Use additional notes to capture any other relevant information or
 considerations. -->
 **Intentional Collected Sensitive Data**
 
-(S/PII were collected as a part of the
-dataset creation process.)
-
 Field Name | Description
 --- | ---
-Field Name | Type of S/PII
-Field Name | Type of S/PII
-Field Name | Type of S/PII
-
-**Unintentionally Collected Sensitive Data**
-
-(S/PII were not explicitly collected as a
-part of the dataset creation process but
-can be inferred using additional
-methods.)
-
-Field Name | Description
---- | ---
-Field Name | Type of S/PII
-Field Name | Type of S/PII
-Field Name | Type of S/PII
-
-**Additional Notes:** Add here
+Gender | User Metadada
+Marital Status | User Metadata
+Application mode | User Metadata
+Course | User Metadata
+Previous qualification | User Metadata
+Nacionality | User Metadata
+Mother's occupation | User Metadata
+Father's occupation | User Metadata
 
 #### Security and Privacy Handling
 <!-- scope: microscope -->
@@ -242,21 +193,8 @@ Summarize here. Include links and metrics where applicable.
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** risk types presenting from the
 dataset: -->
-- Direct Risk
 - Indirect Risk
 - Residual Risk
-- No Known Risks
-- Others (Please Specify)
-
-#### Supplemental Link(s)
-<!-- scope: periscope -->
-<!-- info: Provide link(s) for documentation pertaining to sensitive data in
-the dataset: -->
-**Link Name or Document Type:** link
-
-**Link Name or Document Type:** link
-
-**Link Name or Document Type:** link
 
 #### Risk(s) and Mitigation(s)
 <!-- scope: microscope -->
@@ -278,23 +216,7 @@ Summarize here. Include links and metrics where applicable.
 ### Dataset Version and Maintenance
 #### Maintenance Status
 <!-- scope: telescope -->
-<!-- info: Select **one:** 
-**Regularly Updated** - New versions of the dataset
-have been or will continue to be
-made available.
-
-**Actively Maintained** - No new versions will be made
-available, but this dataset will
-be actively maintained,
-including but not limited to
-updates to the data.
-
-**Limited Maintenance** - The data will not be updated,
-but any technical issues will be
-addressed.
-
-**Deprecated** - This dataset is obsolete or is
-no longer being maintained.-->
+<!-- info: Select **one:**-->
 
 Limited Maintenance
 
@@ -316,46 +238,6 @@ considerations.
 Summarize here. Include links and metrics where applicable.-->
 
 Nenhuma atualização prevista. 
-
-<!--**Versioning:** Summarize here. Include information about criteria for
-versioning the dataset.
-
-**Updates:** Summarize here. Include information about criteria for refreshing
-or updating the dataset.
-
-**Errors:** Summarize here. Include information about criteria for refreshing
-or updating the dataset.
-
-**Feedback:** Summarize here. Include information about criteria for refreshing
-or updating the dataset.
-
-**Additional Notes:** Add here
-
-#### Next Planned Update(s)
-<!-- scope: periscope -->
-<!-- info: Provide details about the next planned update: 
-**Version affected:** 1.0
-
-**Next data update:** MM/YYYY
-
-**Next version:** 1.1
-
-**Next version update:** MM/YYYY-->
-
-<!--#### Expected Change(s)
- scope: microscope -->
-<!-- info: Summarize the updates to the dataset and/or data that are expected
-on the next update.
-
-Use additional notes to capture any other relevant information or
-considerations. 
-**Updates to Data:** Summarize here. Include links, charts, and visualizations
-as appropriate.
-
-**Updates to Dataset:** Summarize here. Include links, charts, and
-visualizations as appropriate.
-
-**Additional Notes:** Add here-->
 
 ## Example of Data Points
 #### Primary Data Modality
@@ -559,188 +441,12 @@ out for, or other relevant information or considerations.
 }
 ```
 
-<!--**Additional Notes:** Add here-->
-
-<!--## Access, Rentention, & Wipeout
-### Access
-#### Access Type
- scope: telescope -->
-<!-- info: Select **one**:
-- Internal - Unrestricted
-- Internal - Restricted
-- External - Open Acess
-- Others (please specify) 
-
-- External - Open Acess
-
-#### Documentation Link(s)-->
-<!-- scope: periscope -->
-<!-- info: Provide links that describe documentation to access this
-dataset: 
-- Dataset Website URL
-- GitHub URL-->
-
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
-
-<!--#### Prerequisite(s)
- scope: microscope -->
-<!-- info: Please describe any required training or prerequisites to access
-this dataset. 
-For example:
-
-This dataset requires membership in [specific] database groups:
-
-- Complete the [Mandatory Training]
-- Read [Data Usage Policy]
-- Initiate a Data Requesting by filing-->
-
-<!--#### Policy Link(s)
-     scope: periscope -->
-<!-- info: Provide a link to the access policy:
-- Direct download URL
-- Other repository URL
-
-Code to download data:
-```
-...
-```
- -->
-<!-- #### Access Control List(s)
-     scope: microscope -->
-<!-- info: List and summarize any access control lists associated with this
-dataset. Include links where necessary.
-
-Use additional notes to capture any other information relevant to accessing
-the dataset. 
-**Access Control List:** Write summary and notes here.
-
-**Access Control List:** Write summary and notes here.
-
-**Access Control List:** Write summary and notes here.
-
-**Additional Notes:** Add here-->
-
-<!--### Retention
-#### Duration
- scope: periscope -->
-<!-- info: Specify the duration for which this dataset can be retained: 
-Specify duration in days, months, or years.-->
-
-#### Policy Summary
-<!-- scope: microscope -->
-<!-- info: Summarize the retention policy for this dataset. 
-**Retention Plan ID:** Write here
-
-**Summary:** Write summary and notes here
-
-#### Process Guide
-<!-- scope: periscope -->
-<!-- info: Summarize any requirements and related steps to retain the dataset.-->
-
-Use additional notes to capture any other relevant information or
-considerations. 
-For example:
-
-This dataset compiles with [standard policy guidelines].
-
-**Additional Notes:** Add here
-
-#### Exception(s) and Exemption(s)
-<!-- scope: microscope -->
-<!-- info: Summarize any exceptions and related steps to retain the dataset.
-Include links where necessary.-->
-
-Use additional notes to capture any other relevant information or
-considerations. -->
-**Exemption Code:** `ANONYMOUS_DATA` /
-`EMPLOYEE_DATA` / `PUBLIC_DATA` /
-`INTERNAL_BUSINESS_DATA` /
-`SIMULATED_TEST_DATA`
-
-**Summary:** Write summary and notes here.
-
-**Additional Notes:** Add here
-
-<!-- ### Wipeout and Deletion
-#### Duration
-scope: periscope -->
-<!-- info: Specify the duration after which this dataset should be deleted or
-wiped out: 
-Specify duration in days, months, or years.
-
-#### Deletion Event Summary
-<!-- scope: microscope -->
-<!-- info: Summarize the sequence of events and allowable processing for data
-deletion.
-
-Use additional notes to capture any other relevant information or
-considerations. -->
-**Sequence of deletion and processing events:**
-
-- Summarize first event here
-- Summarize second event here
-- Summarize third event here
-
-**Additional Notes:** Add here-->
-
-#### Acceptable Means of Deletion
-<!-- scope: periscope -->
-<!-- info: List the acceptable means of deletion: -->
-- Write acceptable means of deletion
-- Write acceptable means of deletion
-- Write acceptable means of deletion
-
-#### Post-Deletion Obligations
-<!-- scope: microscope -->
-<!-- info: Summarize the sequence of obligations after a deletion event.
-
-**Use additional notes to capture any other relevant information or
-considerations.** -->
-**Sequence of post-deletion obligations:**
-
-- Summarize first obligation here
-- Summarize second obligation here
-- Summarize third obligation here
-
-**Additional Notes:** Add here
-
-#### Operational Requirement(s)
-<!-- scope: periscope -->
-<!-- info: List any wipeout integration operational requirements: -->
-**Wipeout Integration Operational Requirements:**
-
-- Write first requirement here
-- Write second requirement here
-- Write third requirement here
-
-#### Exceptions and Exemptions
-<!-- scope: microscope -->
-<!-- info: Summarize any exceptions and related steps to a deletion event.
-
-**Use additional notes to capture any other relevant information or
-considerations.** -->
-**Policy Exception bug:** [bug]
-
-**Summary:** Write summary and notes here
-
-**Additional Notes:** Add here
-
 ## Provenance
 ### Collection
 #### Method(s) Used
 <!-- scope: telescope -->
-<!-- info: Select **all applicable** methods used to collect data: 
-- API
-- Artificially Generated
-- Crowdsourced - Paid
-- Crowdsourced - Volunteer
-- Vendor Collection Efforts
-- Scraped or Crawled
-- Survey, forms, or polls
-- Taken from other existing datasets
-- Unknown
-- To be determined
-- Others (please specify)-->
+<!-- info: Select **all applicable** -->
+
 - Taken from other existing datasets
 
 #### Methodology Detail(s)
@@ -764,105 +470,23 @@ type.) -->
 
 **Primary modality of collection data:**
 
-<!--*Usage Note: Select one for this collection type.*
-
-- Image Data
-- Text Data
-- Tabular Data
-- Audio Data
-- Video Data
-- Time Series
-- Graph Data
-- Geospatial Data
-- Unknown
-- Multimodal (please specify)
-- Others (please specify)-->
-
 - Tabular Data
 
 **Update Frequency for collected data:**
 
-<!--*Usage Note: Select one for this collection type.*
-
-- Yearly
-- Quarterly
-- Monthly
-- Biweekly
-- Weekly
-- Daily
-- Hourly
-- Others (please specify)-->
-
 - Static
-
-<!--**Additional Links for this collection:**
-
-- [Access Policy]
-- [Wipeout Policy]
-- [Retention Policy]
-
-**Additional Notes:** Add here-->
 
 #### Source Description(s)
 <!-- scope: microscope -->
-<!-- info: Provide a description of each upstream source of data.
-
-Use additional notes to capture any other relevant information or
-considerations.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-
-**Additional Notes:** Add here -->
+<!-- info: Provide a description of each upstream source of data.-->
 
 - **Source:** O conjunto de dados inclui informações de alunos matriculados em diferentes cursos da instituição. Os dados incluem informações da matrícula dos alunos (percurso acadêmico, dados demográficos e fatores socioeconômicos) e o desempenho acadêmico no final do primeiro e segundo semestres.
 
 #### Collection Cadence
 <!-- scope: telescope -->
-<!-- info: Select **all applicable**: 
-**Static:** Data was collected once from single or multiple sources.
-
-**Streamed:** Data is continuously acquired from single or multiple sources.
-
-**Dynamic:** Data is updated regularly from single or multiple sources.
-
-**Others:** Please specify-->
+<!-- info: Select **all applicable**:-->
 
 **Static:** Data was collected once from single or multiple sources.
-
-#### Data Integration
-<!-- scope: periscope -->
-<!-- info: List all fields collected from different sources, and specify if
-they were included or excluded from the dataset.
-
-Use additional notes to
-capture any other relevant information or considerations.
-
-(Usage Note: Duplicate and complete the following for each upstream
-source.) -->
-**Source**
-
-**Included Fields**
-
-Data fields that were collected and are included in the dataset.
-
-Field Name | Description
---- | ---
-Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
-Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
-
-**Additional Notes:** Add here
-
-**Excluded Fields**
-
-Data fields that were collected but are excluded from the dataset.
-
-Field Name | Description
---- | ---
-Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
-Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
-
-**Additional Notes:** Add here
 
 #### Data Processing
 <!-- scope: microscope -->
@@ -920,48 +544,6 @@ considerations. -->
 - **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
 
 **Additional Notes:** Add here
-
-<!--### Relationship to Source
-#### Use & Utility(ies)
- scope: telescope -->
-<!-- info: Describe how the resulting dataset is aligned with the purposes,
-motivations, or intended use of the upstream source(s).
-
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for each source type.) 
-- **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.
-
-**Additional Notes:** Add here-->
-
-<!--#### Benefit and Value(s)
- scope: periscope -->
-<!-- info: Summarize the benefits of the resulting dataset to its consumers,
-compared to the upstream source(s).
-
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for each source type.) 
-- **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.
-
-**Additional Notes:** Add here-->
-
-<!--#### Limitation(s) and Trade-Off(s)
- scope: microscope -->
-<!-- info: What are the limitations of the resulting dataset to its consumers,
-compared to the upstream source(s)?
-
-Break down by source type.<br><br>(Usage Note: Duplicate and complete the
-following for each source type.) 
-- **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.
-- **Source Type:** Summarize here. Include links where available.-->
 
 ### Version and Maintenance
 <!-- info: Fill this next row if this is not the first version of the dataset,
@@ -1041,11 +623,8 @@ indirectly) in the dataset. -->
 - Gender
 - Socio-economic status
 - Geography
-- Language
 - Age
-- Culture
 - Experience or Seniority
-- Others (please specify)
 
 #### Intentionality
 <!-- scope: periscope -->
@@ -1993,412 +1572,6 @@ Summarize here. Include links where available.
 <!-- scope: microscope -->
 <!-- info: What additional considerations were made? -->
 Summarize here. Include links where available.
-
-## Annotations & Labeling
-<!-- info: Fill this section if any human or algorithmic annotation tasks were
-performed in the creation of your dataset. -->
-#### Annotation Workforce Type
-<!-- scope: telescope -->
-<!-- info: Select **all applicable** annotation
-workforce types or methods used
-to annotate the dataset:
-- Annotation Target in Data
-- Machine-Generated
-- Annotations
-- Human Annotations (Expert)
-- Human Annotations (Non-Expert)
-- Human Annotations (Employees)
-- Human Annotations (Contractors)
-- Human Annotations (Crowdsourcing)
-- Human Annotations (Outsourced / Managed)
-- Teams
-- Unlabeled
-- Others (Please specify) -->
-
-- Teams
-
-#### Annotation Characteristic(s)
-<!-- scope: periscope -->
-<!-- info: Describe relevant characteristics of annotations
-as indicated. For quality metrics, consider
-including accuracy, consensus accuracy, IRR,
-XRR at the appropriate granularity (e.g. across
-dataset, by annotator, by annotation, etc.).
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each annotation type.) -->
-**Annotation Type** | **Number**
---- | ---
-Number of unique annotations | 123456789
-Total number of annotations | 123456789
-Average annotations per example | 123456789
-Number of annotators per example | 123456789
-[Quality metric per granuality] | 123456789
-[Quality metric per granuality] | 123456789
-[Quality metric per granuality] | 123456789
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-#### Annotation Description(s)
-<!-- scope: microscope -->
-<!-- info: Provide descriptions of the annotations
-applied to the dataset. Include links
-and indicate platforms, tools or libraries
-used wherever possible.
-
-Use additional notes to capture any
-other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete
-the following for each annotation
-type.) -->
-**(Annotation Type)**
-
-**Description:** Description of annotations (labels, ratings) produced.
-Include how this was created or authored.
-
-**Link:** Relevant URL link.
-
-**Platforms, tools, or libraries:**
-
-- Platform, tool, or library: Write description here
-- Platform, tool, or library: Write description here
-- Platform, tool, or library: Write description here
-
-**Additional Notes:** Add here
-
-#### Annotation Distribution(s)
-<!-- scope: periscope -->
-<!-- info: Provide a distribution of annotations for each
-annotation or class of annotations using the
-format below.
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each annotation type.) -->
-**Annotation Type** | **Number**
---- | ---
-Annotations (or Class) | 12345 (20%)
-Annotations (or Class) | 12345 (20%)
-Annotations (or Class) | 12345 (20%)
-Annotations (or Class) | 12345 (20%)
-Annotations (or Class) | 12345 (20%)
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-#### Annotation Task(s)
-<!-- scope: microscope -->
-<!-- info: Summarize each task type associated
-with annotations in the dataset.
-
-Use additional notes to capture any
-other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete
-the following for each task type.) -->
-**(Task Type)**
-
-**Task description:** Summarize here. Include links if available.
-
-**Task instructions:** Summarize here. Include links if available.
-
-**Methods used:** Summarize here. Include links if available.
-
-**Inter-rater adjudication policy:** Summarize here. Include links if
-available.
-
-**Golden questions:** Summarize here. Include links if available.
-
-**Additional notes:** Add here
-
-### Human Annotators
-<!-- info: Fill this section if human annotators were used. -->
-#### Annotator Description(s)
-<!-- scope: periscope -->
-<!-- info: Provide a brief description for each annotator
-pool performing the human annotation task.
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each annotation type.) -->
-**(Annotation Type)**
-
-**Task type:** Summarize here. Include links if available.
-
-**Number of unique annotators:** Summarize here. Include links if available.
-
-**Expertise of annotators:** Summarize here. Include links if available.
-
-**Description of annotators:** Summarize here. Include links if available.
-
-**Language distribution of annotators:** Summarize here. Include links if
-available.
-
-**Geographic distribution of annotators:** Summarize here. Include links if
-available.
-
-**Summary of annotation instructions:** Summarize here. Include links if
-available.
-
-**Summary of gold questions:** Summarize here. Include links if available.
-
-**Annotation platforms:** Summarize here. Include links if available.
-
-**Additional Notes:** Add here
-
-#### Annotator Task(s)
-<!-- scope: microscope -->
-<!-- info: Provide a brief description for each
-annotator pool performing the human
-annotation task.
-
-Use additional notes to capture any
-other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete
-the following for each annotation
-type.) -->
-**(Task Type)**
-
-**Task description:** Summarize here. Include links if available.
-
-**Task instructions:** Summarize here. Include links if available.
-
-**Methods used:** Summarize here. Include links if available.
-
-**Inter-rater adjudication policy:** Summarize here. Include links if
-available.
-
-**Golden questions:** Summarize here. Include links if available.
-
-**Additional notes:** Add here
-
-#### Language(s)
-<!-- scope: telescope -->
-<!-- info: Provide annotator distributions for
-each annotation type.
-
-Use additional notes to capture any
-other relevant information or
-considerations.
-
-(Usage Note: Duplicate and
-complete the following for each
-annotation type.) -->
-**(Annotation Type)**
-
-- Language [Percentage %]
-- Language [Percentage %]
-- Language [Percentage %]
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-#### Location(s)
-<!-- scope: periscope -->
-<!-- info: Provide annotator distributions for each
-annotation type.
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each annotation type.) -->
-**(Annotation Type)**
-
-- Location [Percentage %]
-- Location [Percentage %]
-- Location [Percentage %]
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-#### Gender(s)
-<!-- scope: microscope -->
-<!-- info: Provide annotator distributions for
-each annotation type.
-
-Use additional notes to capture any
-other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete
-the following for each annotation
-type.) -->
-**(Annotation Type)**
-
-- Gender [Percentage %]
-- Gender [Percentage %]
-- Gender [Percentage %]
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-## Validation Types
-<!-- info: Fill this section if the data in the dataset was validated during
-or after the creation of your dataset. -->
-#### Method(s)
-<!-- scope: telescope -->
-<!-- info: Select **all applicable**: -->
-- Data Type Validation
-- Range and Constraint Validation
-- Code/cross-reference Validation
-- Structured Validation
-- Consistency Validation
-- Not Validated
-- Others (Please Specify)
-
-#### Breakdown(s)
-<!-- scope: periscope -->
-<!-- info: Provide a description of the fields and data
-points that were validated.
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each validator type.) -->
-**(Validation Type)**
-
-**Number of Data Points Validated:** 12345
-
-**Fields Validated**
-Field | Count (if available)
---- | ---
-Field | 123456
-Field | 123456
-Field | 123456
-
-**Above:** Provide a caption for the above table or visualization.
-
-#### Description(s)
-<!-- scope: microscope -->
-<!-- info: Provide a description of the methods used to
-validate the dataset.
-
-Use additional notes to capture any other
-relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each validator type.) -->
-**(Validation Type)**
-
-**Method:** Describe the validation method here. Include links where
-necessary.
-
-**Platforms, tools, or libraries:**
-
-- Platform, tool, or library: Write description here
-- Platform, tool, or library: Write description here
-- Platform, tool, or library: Write description here
-
-**Validation Results:** Provide results, outcomes, and actions taken because
-of the validation. Include visualizations where available.
-
-**Additional Notes:** Add here
-
-### Description of Human Validators
-<!-- info: Fill this section if the dataset was validated using human
-validators -->
-#### Characteristic(s)
-<!-- scope: periscope -->
-<!-- info: Provide characteristics of the validator
-pool(s). Use additional notes to capture any
-other relevant information or considerations. -->
-**(Validation Type)**
-- Unique validators: 12345
-- Number of examples per validator: 123456
-- Average cost/task/validator: $$$
-- Training provided: Y/N
-- Expertise required: Y/N
-
-#### Description(s)
-<!-- scope: microscope -->
-<!-- info: Provide a brief description of the validator
-pool(s). Use additional notes to capture any
-other relevant information or considerations.
-
-(Usage Note: Duplicate and complete the
-following for each validator type.) -->
-**(Validation Type)**
-
-**Validator description:** Summarize here. Include links if available.
-
-**Training provided:** Summarize here. Include links if available.
-
-**Validator selection criteria:** Summarize here. Include links if available.
-
-**Training provided:** Summarize here. Include links if available.
-
-**Additional Notes:** Add here
-
-#### Language(s)
-<!-- scope: telescope -->
-<!-- info: Provide validator distributions.
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for each annotation type.)-->
-**(Validation Type)**
-
-- Language [Percentage %]
-- Language [Percentage %]
-- Language [Percentage %]
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-#### Location(s)
-<!-- scope: periscope -->
-<!-- info: Provide validator distributions.
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for each annotation type.)-->
-**(Validation Type)**
-
-- Location [Percentage %]
-- Location [Percentage %]
-- Location [Percentage %]
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
-
-#### Gender(s)
-<!-- scope: microscope -->
-<!-- info: Provide validator distributions.
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for each annotation type.)-->
-**(Validation Type)**
-
-- Gender [Percentage %]
-- Gender [Percentage %]
-- Gender [Percentage %]
-
-**Above:** Provide a caption for the above table or visualization.
-
-**Additional Notes:** Add here
 
 ## Sampling Methods
 <!-- info: Fill out the following block if your dataset employs any sampling
