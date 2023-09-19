@@ -1641,7 +1641,7 @@ that the dataset has been
 used for.
 
 Usage Note: Use comma-separated keywords. -->
-*For example: Classification, Regression, Object Detection*
+*Classification*
 
 #### Evaluation Result(s)
 <!-- scope: periscope -->
@@ -1655,87 +1655,79 @@ considerations.
 
 (Usage Note: Duplicate and complete the
 following for each model.) -->
-**(Model Name)**
 
-**Model Card:** [Link to full model card]
+**Logistic Regression**
 
 Evaluation Results
 
-- Accuracy: 123 (params)
-- Precision: 123 (params)
-- Recall: 123 (params)
-- Performance metric: 123 (params)
+- Accuracy: 0.61
+- Average F1-score: 0.58
 
-**Above:** Provide a caption for the above table or visualization.
+**Support Vector Machine**
 
-**Additional Notes:** Add here
+Evaluation Results
+
+- Accuracy: 0.52
+- Average F1-score: 0.60
+
+**Decision Tree**
+
+Evaluation Results
+
+- Accuracy: 0.59
+- Average F1-score: 0.65
+
+**Random Forest**
+
+Evaluation Results
+
+- Accuracy: 0.62
+- Average F1-score: 0.72
+
+
+**Gradient Boosting**
+
+Evaluation Results
+
+- Accuracy: 0.65
+- Average F1-score: 0.72
+
+**Extreme Gradient Boosting**
+
+Evaluation Results
+
+- Accuracy: 0.65
+- Average F1-score: 0.73
+
+**Logit Boost**
+
+Evaluation Results
+
+- Accuracy: 0.64
+- Average F1-score: 0.72
+
+**CatBoost**
+
+Evaluation Results
+
+- Accuracy: 0.62
+- Average F1-score: 0.73
+
+
+
 
 #### Evaluation Process(es)
-<!-- scope: microscope -->
-<!-- info: Provide a description of the evaluation process for
-the model's overall performance or the
-determination of how the dataset contributes to
-the model's performance.
 
-Use additional notes to capture any other relevant
-information or considerations.
+**(Cross-validation K = 5)**
 
-(Usage Note: Duplicate and complete the following
-for each model and method used.) -->
-**(Model Name)**
-
-**[Method used]:** Summarize here. Include links where available.
-
-- **Process:** Summarize here. Include links, diagrams, visualizations, tables as relevant.
-- **Factors:** Summarize here. Include links, diagrams, visualizations, tables as relevant.
-- **Considerations:** Summarize here. Include links, diagrams, visualizations, tables as relevant.
-- **Results:** Summarize here. Include links, diagrams, visualizations, tables as relevant.
-
-**Additional Notes:** Add here
-
-#### Description(s) and Statistic(s)
-<!-- scope: periscope -->
-<!-- info: Provide a description of the model(s) and
-task(s) that this dataset has been used
-in.
-
-Use additional notes to capture any
-other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the
-following for each model.) -->
-**(Model Name)**
-
-**Model Card:** Link to full model card
-
-**Model Description:** Summarize here. Include links where applicable.
-
-- Model Size: 123 (params)
-- Model Weights: 123 (params)
-- Model Layers 123 (params)
-- Latency: 123 (params)
-
-**Additional Notes:** Add here
-
-#### Expected Performance and Known Caveats
-<!-- scope: microscope -->
-<!-- info: Provide a description of the expected performance
-and known caveats of the models for this dataset.
-
-Use additional notes to capture any other relevant
-information or considerations.
-
-(Usage Note: Duplicate and complete the following
-for each model.) -->
-**(Model Name)**
-
-**Expected Performance:** Summarize here. Include links where available.
-
-**Known Caveats:** Summarize here. Include links, diagrams, visualizations, and
-tables as relevant.
-
-**Additioanl Notes:** Add here
+- **Logistic Regression**
+- **Support Vector Machine**
+- **Decision Tree**
+- **Random Forest**
+- **Gradient Boosting**
+- **Extreme Gradient Boosting**
+- **Logit Boost**
+- **CatBoost**
 
 ## Data dictionary
 ### A set of information describing the contents, format, and structure of a database
