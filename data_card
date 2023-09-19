@@ -866,7 +866,63 @@ that were applied to the dataset. -->
 - Dropped records that couldn’t be classified
 - Handle data from anomalies, unexplainable outliers and missing values
 
+## Sampling Methods
+<!-- info: Fill out the following block if your dataset employs any sampling
+methods. -->
+#### Method(s) Used
+<!-- scope: telescope -->
+<!-- info: Select **all applicable** methods used in the creation of this
+dataset: -->
+- Cluster Sampling
+- Haphazard Sampling
+- Multi-stage Sampling
+- Random Sampling
+- Retrospective Sampling
+- Stratified Sampling
+- Systematic Sampling
+- Weighted Sampling
+- Unknown
+- Unsampled
+- Others (Please specify)
 
+#### Characteristic(s)
+<!-- scope: periscope -->
+<!-- info: Provide characteristics of each sampling
+method used.
+
+Use additional notes to capture any other
+relevant information or considerations.
+
+(Usage Note: Duplicate and complete the
+following for each sampling method
+used.) -->
+**(Sampling Type)** | **Number**
+--- | ---
+Upstream Source | Write here
+Total data sampled | 123m
+Sample size | 123
+Threshold applied | 123k units at property
+Sampling rate | 123
+Sample mean | 123
+Sample std. dev | 123
+Sampling distribution | 123
+Sampling variation | 123
+Sample statistic | 123
+
+**Above:** Provide a caption for the above table or visualization.
+
+**Additional Notes:** Add here
+
+#### Sampling Criteria
+<!-- scope: microscope -->
+<!-- info: Describe the criteria used to sample data from
+upstream sources.
+
+Use additional notes to capture any other
+relevant information or considerations. -->
+- **Sampling method:** Summarize here. Include links where applicable.
+- **Sampling method:** Summarize here. Include links where applicable.
+- **Sampling method:** Summarize here. Include links where applicable.
 
 ## Known Applications & Benchmarks
 <!-- info: Fill out the following section if your dataset was primarily
